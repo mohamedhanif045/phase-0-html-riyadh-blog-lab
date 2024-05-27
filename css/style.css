@@ -6,11 +6,12 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: url(images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background-image: image(images/backgrounds/architecture.jpg);
 }
 
 .wrapper {
@@ -84,3 +85,162 @@ a:hover {
     width: 95%;
   }
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sub-head {
+  background-color: #eee;
+  padding: 1em;
+  text-align: center;
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sub-head {
+    background-color: #eee;
+    padding: 1em;
+    text-align: center;
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .wrapper {
+      width: 80%;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+    }
+    
+    header h1 {
+      margin: 0;
+    }
+    
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+    
+    nav ul li {
+      margin: 0 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .sub-head {
+      background-color: #eee;
+      padding: 1em;
+      text-align: center;
+    }
+    
+    #content {
+      padding: 2em;
+    }
+    
+    section {
+      margin-bottom: 2em;
+    }
+    
+    section img {
+      max-width: 50%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 1em 0;
+      background-color: #333;
+      color: #fff;
+    }
+      
